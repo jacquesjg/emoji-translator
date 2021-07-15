@@ -40,7 +40,11 @@ button.addEventListener('click', function () {
 
         // loop through Array
         for (const object of postSearchEmojiArr) {
-            // go in each object and grab the symbol that is found.
+
+            // create element with a p tag
+            const p = document.createElement('p');
+            p.innerText = object.symbol
+            h1.appendChild(p);
         }
 
 
