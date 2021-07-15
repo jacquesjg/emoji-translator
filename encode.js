@@ -1,4 +1,4 @@
-const encode = function(sentence) {
+const encode = function (sentence) {
     let result = '';
     for (const char of sentence) {
         let found = false;
